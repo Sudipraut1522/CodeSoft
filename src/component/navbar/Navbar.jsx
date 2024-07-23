@@ -35,8 +35,8 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="hover:text-red-600">
-            <NavLink to="blog" activeClassName="text-red-600">
-              Blog
+            <NavLink to="project" activeClassName="text-red-600">
+              Project
             </NavLink>
           </li>
           <li className="hover:text-red-600">

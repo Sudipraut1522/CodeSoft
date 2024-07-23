@@ -1,30 +1,28 @@
 import React from "react";
+import Form from "../../component/Form/Form";
 
 const Contact = () => {
   return (
-    <div className="px-10 mt-10 w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-10">
-        <div className="h-60 w-60 flex items-center justify-center flex-col gap-4 bg-gray-500">
-          {/* <img src="" alt="" /> */}
-          <h2>Main Office</h2>
-          <p>Address details here</p>
+    <div className="mx-5 mt-10 md:mx-10 lg:mx-20 lg:mt-20">
+      <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-x-16 gap-y-10 lg:gap-y-0">
+        <div className="w-full lg:w-1/2 p-4 rounded-md">
+          <img
+            src="./contact.jpg"
+            alt="Sudip Raut"
+            className="object-cover rounded-md w-full h-auto"
+          />
         </div>
-        <div className="h-60 w-60 flex items-center justify-center flex-col gap-4 bg-gray-500">
-          <h2>Branch Office</h2>
-          <p>Additional details here</p>
+        <div className="w-full lg:w-1/2 flex-1">
+          <div>
+            <h1 className="text-4xl lg:text-7xl">Contact Us</h1>
+            <p className="text-gray-300 p-3">
+              Complete the form below to get a free quote
+            </p>
+            <hr />
+          </div>
+
+          <Form />
         </div>
-        <div className="h-60 w-60 flex items-center justify-center flex-col gap-4 bg-white">
-          <h2>Office 3</h2>
-          <p>More details</p>
-        </div>
-        <div className="h-60 w-60 flex items-center justify-center flex-col gap-4 bg-white">
-          <h2 className=" text-red-600">Office 4</h2>
-          <p>More details</p>
-        </div>
-      </div>
-      <div className="flex justify-between px-20 p-4">
-        <div>Additional Info 1</div>
-        <div>Additional Info 2</div>
       </div>
     </div>
   );
