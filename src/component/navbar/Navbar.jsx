@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className=" shadow-md">
+    <div className=" shadow-md bg-gray-700">
       <nav className="flex flex-col md:flex-row justify-between items-center w-full px-6 md:px-20 py-8 md:py-0 text-xl md:text-2xl h-auto md:h-24">
         <div className="mb-4 md:mb-0">
           <NavLink to="/">

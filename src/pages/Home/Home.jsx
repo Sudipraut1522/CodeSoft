@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import FileDownload from "../../component/FileDownload/FileDownload";
 
 const Home = () => {
   return (
@@ -28,10 +29,10 @@ const Home = () => {
           </NavLink>
         </div>
       </div>
-      <div className="flex-1 flex justify-center md:justify-end w-full md:w-1/2 mt-10 md:mt-0">
+      <div className="flex-1 flex  flex-col justify-center md:justify-end w-full md:w-1/2 mt-10 md:mt-0">
         <div className="h-[90%] w-[80%] bg-white rounded-lg relative flex items-end justify-center md:items-center md:justify-end">
           <img
-            src="./sudip.jpg"
+            src="./image.avif"
             alt="userImage"
             className="h-full w-full border-4 border-white rounded-md shadow-2xl object-cover"
           />
